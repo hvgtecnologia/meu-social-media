@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm flex flex-col gap-8">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm flex flex-col gap-8 my-auto">
         <h1 className="text-5xl font-extrabold tracking-tight text-center">
           ContentPlatform<span className="text-purple-500">Core</span>
         </h1>
@@ -17,6 +17,9 @@ export default function Home() {
           Acessar Motor IA Gráfico →
         </Link>
       </div>
+      <footer className="w-full text-center text-xs text-slate-500 mt-8">
+        Desenvolvido por HVG Tecnologia
+      </footer>
     </main>
   );
 }
