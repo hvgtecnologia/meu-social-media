@@ -1,11 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
 
-<<<<<<< HEAD
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
-
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
-=======
 // # PROTEÇÃO MÁXIMA - ContentPlatformCore
 // Configurações de acesso ao banco de dados com isolamento total.
 
@@ -50,4 +44,3 @@ export const getSupabaseClientByAuth = (jwt?: string) => {
   }
   return supabase;
 };
->>>>>>> 3983e56 (feat: implementada Proteção Máxima e Tutorial PT-BR)
