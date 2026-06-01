@@ -447,14 +447,18 @@ export default function Login() {
         </div>
 
         {/* Footer */}
-        <p style={{
+        <div style={{
           textAlign: 'center',
           color: '#334155',
           fontSize: '0.75rem',
-          marginTop: '24px'
+          marginTop: '24px',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '4px'
         }}>
-          © 2026 SocialFlow · Todos os direitos reservados
-        </p>
+          <p>© 2026 SocialFlow · Todos os direitos reservados</p>
+          <p style={{ color: '#475569' }}>Desenvolvido por HVG Tecnologia</p>
+        </div>
       </div>
 
       <style>{`

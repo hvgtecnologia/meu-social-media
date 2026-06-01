@@ -433,6 +433,10 @@ export default function Dashboard() {
               </div>
             )}
           </div>
+
+          <footer className="mt-12 py-6 border-t border-white/5 text-center text-xs text-slate-500">
+            Desenvolvido por HVG Tecnologia
+          </footer>
         </div>
       </main>
       {/* END: MainContent */}
